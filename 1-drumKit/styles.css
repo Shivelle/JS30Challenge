@@ -1,0 +1,49 @@
+body {
+	background-image: url('https://static.pexels.com/photos/499324/pexels-photo-499324.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+.keys {
+  	display: flex;
+  	flex: 1;
+  	min-height: 100vh;
+  	align-items: center;
+  	justify-content: center;
+}
+
+.key {
+  	margin: 1rem;
+  	font-size: 1.5rem;
+  	padding: 1rem .5rem;
+  	transition: all .08s ease;
+  	min-width: 6em;
+  	text-align: center;
+  	color: white;
+  	background: rgba(0,0,0,0.4);
+  	border: 1px solid black;
+    text-shadow: 0 0 .5rem black;
+}
+
+kbd {
+	background: none;
+	border: none;
+	box-shadow: none;
+  	display: block;
+  	font-size: 4rem;
+}
+
+.soundname {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  letter-spacing: .1rem;
+  color: #FB8EFE;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #FB8EFE;
+  border: 3px solid #FB8EFE;
+  box-shadow: 0 0 1rem #F478AC;
+}
