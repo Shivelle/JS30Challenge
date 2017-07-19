@@ -4,8 +4,16 @@ body {
 	height: 100vh;
 	width: 100vw;
 	overflow: hidden;
+	cursor: crosshair;
+	font-family: sans-serif;
+	color: #787878;
+	font-family: 'Lemonada', cursive;
 }
 
 
-#canvas { 
+.how-to {
+	padding: 1em;
+	margin: 0;
+	background: #252525;
+	color: #efefef;
 }

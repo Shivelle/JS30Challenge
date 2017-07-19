@@ -1,5 +1,7 @@
 const canvas 	= document.querySelector('#draw'); 
 const ctx 		= canvas.getContext('2d'); 
+const howTo		= document.querySelector('.how-to'); 
+
 
 canvas.width 	= window.innerWidth; 
 canvas.height 	= window.innerHeight; 
@@ -16,7 +18,10 @@ let direction	= true;
 
 // functions
 function draw(e) {
-  if (!isDrawing) return; // stop drawing when mouse is not down
+  if (!isDrawing) 
+  	return; 
+  
+
   //console.log(e);
   ctx.strokeStyle = `hsl(${hue}, 100%, 50%)`;
   ctx.beginPath();
@@ -42,6 +47,7 @@ function draw(e) {
   }
 
 }
+
 
 
 // event listeners
