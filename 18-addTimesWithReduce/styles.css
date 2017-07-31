@@ -1,0 +1,55 @@
+body {
+	background: #FFEAF5;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	color: #555;
+}
+
+.container {
+	margin: 2em auto;
+	padding: 0 5em;
+}
+
+hr {
+	border: 1px solid #fff;
+}
+
+.col-xs-6 {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.row {
+	padding: 0;
+	margin: 0;
+}
+
+ul {
+	list-style-type: none; 
+	display: inline;
+	cursor: pointer;
+	text-align: right;
+}
+
+.secondList {
+	text-align: left;
+}
+
+li {
+	font-size: 1.3em;
+}
+
+.result {
+	font-size: 2.2em;
+	letter-spacing: 1px; 
+	color: #C9EAE8;
+}
+
+h1 {
+	font-size: 3em; 
+	color: #694F5D;
+}
+
+p {
+	color: #888;
+}
