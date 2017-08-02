@@ -68,3 +68,20 @@ html {
   padding-top: 1.5em;
   font-size: 1.5em;
 }
+
+button {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  background: #303030;
+  color: #fff;
+  border: 1px solid #ddd;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}

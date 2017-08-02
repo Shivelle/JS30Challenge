@@ -1,0 +1,9 @@
+- add buttons for three color effects
+
+- run paintToCanvas with filter functions as parameters, depending on button clicked
+
+- hide controls where they are not intended to be used
+
+- change font 
+
+- change control alignment
