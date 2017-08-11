@@ -1,4 +1,5 @@
   html {
+    text-align: center;
     box-sizing: border-box;
   }
 
@@ -16,9 +17,26 @@
   }
 
   .two {
-    background: #C8966F;
+    background: #DFC8B9;
   }
 
   .three {
     background: #F92A82;
+  }
+
+  button {
+    margin: 1em auto;
+    background: #F92A82;
+    padding: 1em;
+    color: #fff;
+    border: 1px solid #F92A82;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    transition: all .3s ease-in-out;
+  }
+
+  button:hover {
+    cursor: pointer;
+    background: #fff;
+    color: #F92A82;
   }
